@@ -3,72 +3,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Liter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #shopify{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
-    left: 9vw;
-    font-family: "Roboto Condensed", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: italic;
-    font-weight: 300;
-    color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  height: 10vh;
+  left: 9vw;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
 }
 #sobretexto h1{
-    color: white;
-    font-family: "Liter", serif;
-    letter-spacing: 2px;  
-    font-size: 30px;
-    text-align: center;
-    margin-top: 9px;
+  color: white;
+  font-family: "Liter", serif;
+  letter-spacing: 2px;  
+  font-size: 29px;
+  text-align: center;
+  margin: 6px;
+  
 }
 #sobretexto h3{
-    color: rgb(255, 255, 255);
-    font-family: "Roboto", serif;
-    text-align: center;
-    font-size: 17px;
-     margin-top: 13px;
-     gap: 4px;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 17px;
+  margin: 20px;
+  letter-spacing: 1px;
 }
 #texto{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
 }
 #texto input{
-    height:5vh ;
-    width: 17vw;
-    outline: none;
-    margin-right: 12px;
-   background-color: white;
-     border: none;
-     font-size: 12px;
-   
-  
-   
+  height:5vh ;
+  width: 21vw;
+  outline: none;
+  margin-right: 12px;
+  background-color: white;
+  border: none;
+  font-size: px;
+  border-radius: 3px;
 }
 #texto button{
-    height:5.5vh ;
-    width: 9vw;
-    background-color: rgb(51, 47, 47);
-    cursor: pointer;
-    color: white;
-    margin-top:3px;
-    border: none;
-    border-radius: 5px;
-    font-size: 9px;
+  height:5vh ;
+  width: 9vw;
+  background-color: rgb(51, 47, 47);
+  color: white;
+  margin-top:2px;
+  border: none;
+   border-radius: 3px;
+   font-size: 8px;
 }
+
 #letras{
   color: white;
   font-family: "poppins","serif";
   margin-top: 1.5vw;
+
 }
 #texto input::placeholder{
     padding-left: 20px;
