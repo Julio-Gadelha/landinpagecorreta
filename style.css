@@ -110,13 +110,11 @@ gap: 25px;
  width: 40px;
   height: 40px;
   margin-bottom: 15px;
-  
 }
 .parte1 h3{
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 10px;
- 
 }
 .parte1 p{
   font-size: 14px;
@@ -125,42 +123,62 @@ gap: 25px;
 #img{
   display: flex;
   justify-content: center;
-  gap: 3px;
+  margin: 6vw;
 }
 #batata{
   display: flex;
   justify-content: center;
   align-items: center;
-   font-family: "poppins","serif";
-  font-size: 10px;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
   margin: 2vw;
-    
- 
 }
 .pizza{
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 12px;
+  font-family:"Poppins", serif ;
 }
 #buttons{
   text-align: center;
-  margin: 50px;
+  margin: 30px;
 }
 button{
    background-color:#008060;
   color: white; 
    border: none;
   padding: 15px 32px; 
-   font-size: 8px; 
+   font-size: 9px; 
    cursor: pointer;
-  border-radius: 5px; 
-  transition: background-color 0.3s ease; 
-
+  border-radius: 3px; 
+ 
 }
 .parte1 img{
   margin:2vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#faq{
+  color:  #1C5F53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 12px;
+  font-family: "Noto Sans", serif;
+}
+#pai{
+   margin-left: 70px;  
+   margin-right: 70px;
+}
+#cor{
+   background-color: #FAF9F8;
+   margin-left: 70px;
+   margin-right: 70px;
+   height: 60vh;
+ 
 }
