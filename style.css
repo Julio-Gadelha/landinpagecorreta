@@ -7,6 +7,7 @@
   padding: 0;
 }
 
+
 #shopify{
   display: flex;
   justify-content: space-around; 
@@ -46,7 +47,7 @@
   margin-top: 9px;
 }
 #texto input{
-  height:5vh ;
+  height:6vh ;
   width: 21vw;
   outline: none;
   margin-right: 12px;
@@ -70,7 +71,7 @@
   color: white;
   font-family: "Poppins", serif;
   margin-top: 1.5vw;
-  font-size: 7px;
+  font-size: px;
   justify-content: center;
   margin-left: 30px;
 
@@ -125,6 +126,12 @@ gap: 25px;
   justify-content: center;
   margin: 6vw;
 }
+.parte1 img{
+  margin:2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #batata{
   display: flex;
   justify-content: center;
@@ -154,13 +161,6 @@ button{
    font-size: 9px; 
    cursor: pointer;
   border-radius: 3px; 
- 
-}
-.parte1 img{
-  margin:2vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 #faq{
   color:  #1C5F53;
@@ -177,8 +177,8 @@ button{
 }
 #cor{
    background-color: #FAF9F8;
-   margin-left: 70px;
-   margin-right: 70px;
-   height: 60vh;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 60vh;
  
 }
