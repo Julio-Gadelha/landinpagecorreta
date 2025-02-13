@@ -9,13 +9,14 @@
 
 
 #shopify{
+  font-size: 7vh;
   display: flex;
   justify-content: space-around; 
   align-items: center;
   height: 10vh;
   left: 9vw;
   font-family: "Roboto Condensed", serif;
-  font-optical-sizing: auto;
+
   font-weight: 400;
   font-style: italic;
   font-weight: 300;
@@ -71,7 +72,7 @@
   color: white;
   font-family: "Poppins", serif;
   margin-top: 1.5vw;
-  font-size: px;
+  font-size: 9px;
   justify-content: center;
   margin-left: 30px;
 
@@ -180,5 +181,15 @@ button{
   margin-left: 70px;
   margin-right: 70px;
   height: 60vh;
- 
+} 
+#verdin{
+ margin: 2vh;
+ margin-left: 142vh;
+}
+.terms{
+  margin-left: 72vw;
+  color: blue;
+  word-spacing: 8px;
+  line-height: 1.6;
+  font-size: 12px;
 }
